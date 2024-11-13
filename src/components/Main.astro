@@ -1,3 +1,44 @@
-<main>
-  <h1 class='text-center text-2xl'>Welcome to template by Esteban Vertzner</h1>
+<main
+  class='flex w-[327px] flex-col items-center justify-center overflow-hidden rounded-lg bg-[#1B1937] shadow-[0px_20px_20px_-10px_rgba(23,25,41,0.20)] 2xl:grid 2xl:w-[1110px] 2xl:grid-cols-2 2xl:gap-7'
+>
+  <div class='bg-[#AB5CDB] 2xl:col-start-2 2xl:col-end-3 2xl:row-start-1 2xl:row-end-2'>
+    <picture class='opacity-75 mix-blend-multiply'>
+      <source media='(max-width: 1439px)' srcset='/image-header-mobile.jpg' />
+      <source media='(min-width: 1440px)' srcset='/image-header-desktop.jpg' />
+      <img src='/image-header-mobile.jpg' alt='Hero image' class='w-full' />
+    </picture>
+  </div>
+  <div
+    class='flex flex-col gap-10 px-8 pb-8 pt-10 text-center 2xl:col-start-1 2xl:col-end-2 2xl:row-start-1 2xl:row-end-2 2xl:gap-[72px] 2xl:p-[72px] 2xl:pb-[60px] 2xl:text-start'
+  >
+    <div class='flex flex-col gap-4 text-white 2xl:gap-[26px]'>
+      <div class='text-[28px] font-bold leading-[32px] 2xl:text-4xl'>
+        Get <span class='text-[#AB5CDB]'>insights</span> that help your business grow.
+      </div>
+      <p class='text-[15px] leading-[25px] opacity-75'>
+        Discover the benefits of data analytics and make better decisions regarding revenue,
+        customer experience, and overall efficiency.
+      </p>
+    </div>
+    <div class='flex flex-col gap-6 text-white 2xl:flex-row 2xl:justify-between 2xl:gap-0'>
+      <div class='flex flex-col gap-0.5'>
+        <div class='text-2xl font-bold leading-[normal]'>10k+</div>
+        <div class='font-lexend text-xs uppercase leading-[25px] tracking-[1px] opacity-60'>
+          Companies
+        </div>
+      </div>
+      <div class='flex flex-col gap-0.5'>
+        <div class='text-2xl font-bold leading-[normal]'>314</div>
+        <div class='font-lexend text-xs uppercase leading-[25px] tracking-[1px] opacity-60'>
+          Templates
+        </div>
+      </div>
+      <div class='flex flex-col gap-0.5'>
+        <div class='text-2xl font-bold leading-[normal]'>12M+</div>
+        <div class='font-lexend text-xs uppercase leading-[25px] tracking-[1px] opacity-60'>
+          Queries
+        </div>
+      </div>
+    </div>
+  </div>
 </main>
